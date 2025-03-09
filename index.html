@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #field {
+            width: 100%;
+            height: 600px;
+            position: relative;
+            background-image: url('flowerfield.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+
+        }
+        #blauer 
+        {
+            width: 60px;
+
+            height: 60px;
+
+            position: absolute;
+
+            top: -500px;
+
+            left: -500px;
+        }
+       
+        #roter
+        {
+            width: 60px;
+
+            height: 60px;
+
+            position: absolute;
+
+            top: -500px;
+
+            right: -500px;
+        }
+    </style>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <p><button onclick="move()">Move!</button>&nbsp;
+    <button onclick="stopMoving()">Stop!</button></p>
+
+    <div id="container">
+
+        <div id="field">
+
+        <img id="blauer" src="butterAlt\flyingne000.png" alt="butterfly1" />
+       
+        <img id="roter" src="butterAlt\flyingse000.png" alt="butterfly3" />
+
+    </div>
+    </div>
+</body>
+</html>
